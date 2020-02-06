@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import ParticleAnimation from 'react-particle-animation'
+
 
 class Header extends Component {
   render() {
@@ -14,10 +16,9 @@ class Header extends Component {
     }
 
     return (
-      <header id="home">
-
+		
+	  <header id="home">
       <nav id="nav-wrap">
-
          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
 	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
 
@@ -31,7 +32,7 @@ class Header extends Component {
          </ul>
 
       </nav>
-
+	{/* 
       <div className="row banner">
          <div className="banner-text">
             <h1 className="responsive-headline">I'm {name}.</h1>
@@ -41,7 +42,13 @@ class Header extends Component {
                {networks}
             </ul>
          </div>
-      </div>
+      </div> */}
+	  <ParticleAnimation
+			style={{
+            position: "absolute",
+            width: "100%",
+            height: "90%"
+          }} />
 
       <p className="scrolldown">
          <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
