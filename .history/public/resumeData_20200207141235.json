@@ -10,10 +10,11 @@
     "phone": "+359 879888620",
     "address":{
       "street":"(Your Street)",
-	  "city":"Amsterdam",
+	  "city":"(Your City)",
 	  "developer": "Web Developer",
-      "state":"Netherlands",
-      "zip": "1008DG"
+	  "designer": "Web Designer",
+      "state":"(Your State)",
+      "zip": "(Your Zip/Postal Code)"
     },
     "website": "http://www.timbakerdev.com",
     "resumedownload":"http://timbakerdev.com",

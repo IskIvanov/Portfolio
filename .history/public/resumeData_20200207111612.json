@@ -2,18 +2,19 @@
   "main": {
     "name":"Iskren Ivanov",
     "occupation":"(Your Occupation Here)",
-    "description":"Self-motivated, solutions-oriented developer who's passionate in finding creative solutions in complicated problems. With 3 year of experience in the industry.",
-    "image":"profilePic.jpg",
+    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "image":"profilepic.jpg",
     "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "iskren.dev@gmail.com",
-    "phone": "+359 879888620",
+    "email": "youremailhere@gmail.com",
+    "phone": "555-555-5555",
     "address":{
       "street":"(Your Street)",
-	  "city":"Amsterdam",
+	  "city":"(Your City)",
 	  "developer": "Web Developer",
-      "state":"Netherlands",
-      "zip": "1008DG"
+	  "designer": "Web Designer",
+      "state":"(Your State)",
+      "zip": "(Your Zip/Postal Code)"
     },
     "website": "http://www.timbakerdev.com",
     "resumedownload":"http://timbakerdev.com",
