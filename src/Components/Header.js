@@ -18,7 +18,8 @@ class Header extends Component {
     return (
 		
 	  <header id="home">
-      <nav id="nav-wrap">
+      {/* Navigation bar/menu */}
+	  <nav id="nav-wrap">
          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
 	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
 
@@ -32,7 +33,14 @@ class Header extends Component {
          </ul>
 
       </nav>
-	{/* 
+
+	  <ParticleAnimation
+			style={{
+            position: "absolute",
+            width: "100%",
+            height: "90%"
+          }} />
+	
       <div className="row banner">
          <div className="banner-text">
             <h1 className="responsive-headline">I'm {name}.</h1>
@@ -42,13 +50,8 @@ class Header extends Component {
                {networks}
             </ul>
          </div>
-      </div> */}
-	  <ParticleAnimation
-			style={{
-            position: "absolute",
-            width: "100%",
-            height: "90%"
-          }} />
+      </div>
+	  
 
       <p className="scrolldown">
          <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
