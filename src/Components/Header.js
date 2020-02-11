@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import ParticleAnimation from 'react-particle-animation'
-
+import ParticlesBg from 'particles-bg';
 
 class Header extends Component {
   render() {
@@ -32,15 +31,7 @@ class Header extends Component {
             <li><a className="smoothscroll" href="#contact">Contact</a></li>
          </ul>
 
-      </nav>
-
-	  <ParticleAnimation
-			style={{
-            position: "absolute",
-            width: "100%",
-            height: "90%"
-          }} />
-	
+      </nav>	
       <div className="row banner">
          <div className="banner-text">
             <h1 className="responsive-headline">I'm {name}.</h1>
@@ -56,7 +47,7 @@ class Header extends Component {
       <p className="scrolldown">
          <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
       </p>
-
+	  <ParticlesBg type="cobweb" color="#9E9E9E" bg={true} num={50} />
    </header>
     );
   }
